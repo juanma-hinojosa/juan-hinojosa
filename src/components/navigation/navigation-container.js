@@ -1,6 +1,8 @@
 /* eslint-disable no-useless-constructor */
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import ButtonsL from "../buttons/button";
+
 
 class NavigationContainer extends Component {
     render() {
@@ -41,6 +43,11 @@ class NavigationContainer extends Component {
                             <i class="fas fa-suitcase"></i>
                             portfolio
                         </NavLink>
+                    </div>
+                    <div className="nav-link-wrapper">
+                        <div className="nav-link-active">
+                            <ButtonsL/>
+                        </div>
                     </div>
 
                     {/* No usamos etiquetas A como en los html

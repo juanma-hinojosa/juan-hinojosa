@@ -1,18 +1,82 @@
-import React from "react";
-import { Link } from "react-router-dom";
-// Al importar Link estamos creando una etiqueta Link
-// Que al estar vinculada al Navlink vamos con una ruta
-// Si usamos esa misma ruta, todo lo que se haya Guardado en la etiqueta Link se va a renderizar
+/* eslint-disable no-unused-vars */
+/* eslint-disable import/no-anonymous-default-export */
+import React, { useEffect } from "react";
+import "../../style/services.css"
+import Skill from "./skill";
+import {useTranslation} from "react-i18next";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default function() {
+    useEffect(() => {
+        AOS.init({ 
+            duration: 1500, 
+            once: true,
+        });
+    }, []);
+    const [t, i18n] = useTranslation("global");
+
     return (
-        <div>
-            <h2>Skills</h2>
-            <div>
-                <Link to="/about-me">
-                    <p>Comming Soon you can put your own blog post!!</p>
-                </Link>
+        <div className="services">
+             <div className="left-services" data-aos="fade-right">
+                
+                <div className="title-services">
+                    <h1>{t("skills.title-services")}</h1>
+                </div>
+                <div className="subtitle-services">
+                    <p>{t("skills.subtitle-services")}</p>
+                </div>
+            
+            </div>
+            <div className="right-services" data-aos="fade-up">
+                <Skill 
+                    imagen="1"
+                    language="HTML"
+                />
+                <Skill 
+                    imagen="2"
+                    language="CSS"
+                />
+                <Skill 
+                    imagen="3"
+                    language="SASS"
+                />
+                <Skill 
+                    imagen="4"
+                    language="JavaScript"
+                />
+                <Skill 
+                    imagen="5"
+                    language="BOOTSTRAP"
+                />
+                <Skill 
+                    imagen="6"
+                    language="MySQL"
+                />
+                <Skill 
+                    imagen="7"
+                    language="Postgres SQL"
+                />
+                <Skill 
+                    imagen="8"
+                    language="Node JS"
+                />
+                <Skill 
+                    imagen="13"
+                    language="Mongo DB"
+                />
+                <Skill 
+                    imagen="10"
+                    language="PYTHON"
+                />
+                <Skill 
+                    imagen="11"
+                    language="React"
+                />
+                <Skill 
+                    imagen="12"
+                    language="Angular"
+                />
             </div>
         </div>
     ); 

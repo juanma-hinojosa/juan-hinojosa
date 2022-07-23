@@ -1,0 +1,62 @@
+.hero-section {
+    background-image:
+        linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,
+        url(../img/bg-hero.jpg);
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section > .hero-wrapper {
+    /* padding: 40px; */
+    text-align: center;
+    color: white;
+}
+
+.hero-section > .hero-wrapper > .title-hero {
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero-section > .hero-wrapper > .title-hero > h2 {
+    font-size: 5rem;
+    margin: 20px 0px;
+} 
+
+.hero-section > .hero-wrapper > .subtitle-hero {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+} 
+
+.hero-section > .hero-wrapper > .links {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-section > .hero-wrapper > .links > a {
+    color: white;
+    transition: .3s;
+    font-size: 1.5rem;
+}
+
+.hero-section > .hero-wrapper > .links > a:hover {
+    color: rgb(163, 163, 163);
+}
+
+
+@media  (max-width: 540px) {
+    .hero-section > .hero-wrapper > .title-hero > h2 {
+        font-size: 2rem;
+    }
+}
+
+@media  (max-width: 440px) {
+    header > nav > .right-nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

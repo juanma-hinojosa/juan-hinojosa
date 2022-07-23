@@ -1,0 +1,25 @@
+{
+    "home": {
+        "subtitle-hero-1": "I'm a Creative Full Stack Developer and I make things work.",
+        "subtitle-hero-2": "Turning your dreams into reality."
+    },
+    "about": {
+        "title-about": "ABOUT ME",
+        "subtitle-about-1": "I'm a Free Lance Full Stack Developer, mine hability Front-End Design",
+        "subtitle-about-2": "Many of my skills I acquired in different Bootcamps around the world from Argentina, Brazil & United States",
+        "link-1": "SEE WORKS"
+    },
+    "skills": {
+        "title-services": "SKILLS",
+        "subtitle-services": "All the skills you can count on in your projects"
+    },
+    "portfolio":{
+        "title-work": "PORTFOLIO",
+        "subtitle-work": "I invite you to come see some of the personal projects I work on",
+        "link-work": "SEE ALL WORKS"
+    },
+    "no-match": {
+        "title-nomatch": "Error page not found!!",
+        "link-home-content": "Return to Homepage"
+    }
+}

@@ -1,8 +1,8 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/rules-of-hooks */
 import "./style/main.scss"
 import React from 'react';
 import { BrowserRouter as Router, Routes as Switch, Route } from "react-router-dom";
-// import AOS from 'aos';
-// import "aos/dist/aos.css";
 
 
 import NavigationContainer from './components/navigation/navigation-container';
@@ -15,8 +15,8 @@ import Portfolio from "./components/pages/portfolio";
 
 
 
-class App extends React.Component {
-  render() {
+function App () {
+  // render() {
     return (
       <div className="container">
         <Router>
@@ -34,7 +34,7 @@ class App extends React.Component {
         </Router>
       </div>
     )
-  }
+  // }
 }
 
 export default App;

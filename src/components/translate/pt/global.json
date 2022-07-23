@@ -1,0 +1,25 @@
+{
+    "home": {
+        "subtitle-hero-1": "Sou um Creativo Full Stack Developer e eu faco isso no meu trabalho.",
+        "subtitle-hero-2": "Tornemos realidade todos teus sonhos"
+    },
+    "about": {
+        "title-about": "QUEM SOU",
+        "subtitle-about-1": "Sou um desenvolvedor Free Lance Full-Stack, eu me especializo no disenho Front End",
+        "subtitle-about-2": "Muitas das minha habilidades eu adquiri elas em diferentes Bootcamps do mundo todo, desde a Argentina, Brasil e os Estados Unidos",
+        "link-1": "VER TRABALHOS"
+    },
+    "skills": {
+        "title-services": "HABILIDADES",
+        "subtitle-services": "Todas as habilidades com as quais você pode contar em seus projetos"
+    },
+    "portfolio":{
+        "title-work": "PORTAFOLIO",
+        "subtitle-work": "Convido você a vir e ver alguns dos projetos pessoais em que trabalho",
+        "link-work": "VER TRABALHOS"
+    },
+    "no-match": {
+        "title-nomatch": "Error Site não achado!!",
+        "link-home-content": "Voltar ao Inicio"
+    }
+}
