@@ -1,0 +1,50 @@
+.no-match-wrapper {
+    height: calc(100vh - 83px);
+    background-image: url("../img/bg-nomatch.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .no-match-content {
+        width: 500px;
+        margin-left: 30px;
+        color: white;
+
+        .title-nomatch {
+            margin: 0;
+        }
+
+        h3 {
+            margin: 0 0 40px 0;
+        }
+
+
+        .link-home-content {
+            width: 200px;
+            padding: 8px 13px;
+            background-color: $blue;
+            transition: .3s ease-out;
+            
+            a {
+                color: white;
+                text-decoration: none;
+                i {
+                    margin-right: 10px;
+                }
+            }
+            
+        }
+        
+        .link-home-content:hover {
+            background-color: white;
+            
+            a {
+                color: black;
+            }
+        }
+    }
+
+}
